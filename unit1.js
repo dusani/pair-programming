@@ -39,13 +39,11 @@ let calls = "";
 function jerry(str) {
 	calls += "Jerry";
 	kramer();
-	george();
-	elaine();
 }
 
 function george(str) {
 	calls += "George";
-	//   elaine();
+	elaine();
 }
 
 function elaine(str) {
@@ -54,7 +52,7 @@ function elaine(str) {
 
 function kramer(str) {
 	calls += "Kramer";
-	//   george();
+	george();
 }
 
 jerry();
